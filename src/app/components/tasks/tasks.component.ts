@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import {Task} from '../../components/Task';
 import {TASKS} from'../../components/tasks/mock-tasks'
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-tasks',
@@ -9,7 +10,7 @@ import {TASKS} from'../../components/tasks/mock-tasks'
 })
 export class TasksComponent implements OnInit {
  tasks: Task[] = TASKS;
-
+ faTimes = faTimes;
   constructor() { }
 
   ngOnInit(): void {
