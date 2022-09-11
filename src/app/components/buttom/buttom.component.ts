@@ -13,7 +13,7 @@ export class ButtomComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  
+
   onClick(){
     this.btnClick.emit();
   }
