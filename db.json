@@ -16,13 +16,19 @@
       "id": 3,
       "text": "Investigar sobre TS",
       "day": "Agosto 5 a las  19:00",
-      "reminder": false
+      "reminder": true
     },
     {
-      "id": 4,
-      "text": "Leer mi libro",
-      "day": "Agosto 5 a las  21:00",
-      "reminder": false
+      "text": "dfsdfsd",
+      "day": "gdfg",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "hacer algo",
+      "day": "gdfg",
+      "reminder": false,
+      "id": 5
     }
   ]
 }

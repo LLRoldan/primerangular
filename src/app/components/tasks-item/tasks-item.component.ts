@@ -3,13 +3,14 @@ import {Task} from '../../components/Task'
 import {TASKS} from'../../components/tasks/mock-tasks'
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
+
 @Component({
   selector: 'app-tasks-item',
   templateUrl: './tasks-item.component.html',
   styleUrls: ['./tasks-item.component.css']
 })
 export class TasksItemComponent implements OnInit {
- @Input() task: Task = TASKS[0];
+ @Input() task: Task = TASKS[0]
  @Output() onDeleteTask: EventEmitter<Task> = new EventEmitter()
  @Output() onToggleReminder: EventEmitter<Task> = new EventEmitter()
 
@@ -19,9 +20,12 @@ export class TasksItemComponent implements OnInit {
   ngOnInit(): void {
   }
 onDelete(task: Task) {
+  //console.log(task);
+  //console.log("borrar")
   this.onDeleteTask.emit(task);
 }
 onToggle(task: Task) {
+  //console.log("onToggle");
   this.onToggleReminder.emit(task);
 }
 
