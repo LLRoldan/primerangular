@@ -19,14 +19,14 @@
       "reminder": true
     },
     {
-      "text": "dfsdfsd",
-      "day": "gdfg",
-      "reminder": true,
+      "text": "Ir al cine",
+      "day": "20 de mayo",
+      "reminder": false,
       "id": 4
     },
     {
-      "text": "hacer algo",
-      "day": "gdfg",
+      "text": "Ir al cine",
+      "day": "20 de mayo",
       "reminder": false,
       "id": 5
     }
